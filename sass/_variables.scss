@@ -47,6 +47,13 @@ $text-font-sizes: (
   "7": 0.875rem
 );
 
+
+$font-weights: (
+  "regular": 400,
+  "medium": 500,
+  "bold": 600,
+);
+
 $icon-sizes: (
   "small": 1rem,
   "normal": 1.5rem,
@@ -97,6 +104,7 @@ $position-values: (
   "50": 50%,
   "100": 100%
 );
+
 
 $text-align: (
   'start': start,

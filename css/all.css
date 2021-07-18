@@ -61,6 +61,7 @@ table {
 
 body {
   line-height: 1.5;
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
 }
 
 img {
@@ -489,6 +490,14 @@ img {
 
 .text-end {
   text-align: end;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fst-italic {
+  font-style: italic;
 }
 
 .icon-small {
@@ -5520,6 +5529,7 @@ img {
 .section__index h2 {
   margin-bottom: 20px;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {

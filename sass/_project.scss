@@ -18,6 +18,7 @@
     h2 {
       margin-bottom: 20px;
       font-size: map-get($title-font-sizes, '6');
+      font-weight: map-get($font-weights, "bold");
       @include media-breakpoint-up(md) {
         font-size: map-get($title-font-sizes, '4');
         margin-bottom: 32px;
