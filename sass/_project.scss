@@ -29,4 +29,50 @@
       }
     }
   }
+  &__joint {
+    height: 719px;
+    background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    @include media-breakpoint-up(md) {
+      height: 452px;
+    }
+    @include media-breakpoint-up(lg) {
+      height: 705px;
+    }
+  }
+}
+
+.img {
+  &__joint {
+    width: 100%;
+    object-fit: cover;
+    height: 291px;
+    @include media-breakpoint-up(md) {
+      height: 278px;
+    }
+    @include media-breakpoint-up(lg) {
+      height: 455px;
+    }
+  }
+}
+
+.joint {
+  &--after{
+    position: relative;
+    &::after {
+      position: absolute;
+      content: '';
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(255, 255, 255, 0.3);
+      z-index: 1;
+    }
+    h3 {
+      z-index: 9;
+    }
+  }
 }
