@@ -1,5 +1,8 @@
 .container {
+  // 最大寬度
   max-width: 1100px;
+  // 內容寬度，就算內容不夠撐開，也會是 100%，這邊會是 max-width 寬度
+  width: 100%;
   padding-top: $padding-x;
   padding-bottom: $padding-x;
   margin: 0 auto;
