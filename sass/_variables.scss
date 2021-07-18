@@ -51,7 +51,8 @@ $icon-sizes: (
   "small": 1rem,
   "normal": 1.5rem,
   "lg": 2.25rem,
-  "xl": 3rem
+  "xl": 3rem,
+  "xxl": 6.25rem,
 );
 
 $d: (
@@ -79,16 +80,38 @@ $align-items: (
   "evenly": space-evenly
 );
 
+$flex: (
+  "row": row,
+  "row-reverse": row-reverse,
+  "column": column,
+  "column-reverse": column-reverse
+);
+
+$position: (
+  "relative": relative,
+  "absolute": absolute
+);
+
+$position-values: (
+  "0": 0,
+  "50": 50%,
+  "100": 100%
+);
+
 $text-align: (
   'start': start,
   'center': center,
   'end': end
 );
 
-$col: (
+$cols: (
   "3": 25%,
   "4": 33.33%,
+  "5": 41%,
   "6": 50%,
+  "7": 58%,
+  "8": 66%,
+  "10": 83%,
   "12": 100%
 );
 

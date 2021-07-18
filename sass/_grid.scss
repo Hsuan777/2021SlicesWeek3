@@ -3,12 +3,27 @@
   max-width: 1100px;
   // 內容寬度，就算內容不夠撐開，也會是 100%，這邊會是 max-width 寬度
   width: 100%;
-  padding-top: $padding-x;
-  padding-bottom: $padding-x;
+  padding-left: $padding-x;
+  padding-right: $padding-x;
   margin: 0 auto;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
+  >* {
+    width: 100%;
+    max-width: 100%;
+    padding-left: $padding-x;
+    padding-right: $padding-x;
+  }
+}
+
+@each $name, $value in $cols {
+  .col-#{$name} {
+    width: $value;
+    padding-left: $padding-x;
+    padding-right: $padding-x;
+    position: relative;
+  }
 }

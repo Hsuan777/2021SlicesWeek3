@@ -86,6 +86,13 @@
       }
     }
   }
+  @each $name, $value in $flex {
+    .flex-#{$breakpoint}-#{$name} {
+      @include media-breakpoint-up($breakpoint) {
+        flex-direction: $value;
+      }
+    }
+  }
   @each $name, $value in $title-font-sizes {
     .title-fs-#{$breakpoint}-#{$name} {
       @include media-breakpoint-up($breakpoint) {
@@ -112,6 +119,16 @@
     .text-#{$breakpoint}-#{$name} {
       @include media-breakpoint-up($breakpoint) {
         text-align: $value;
+      }
+    }
+  }
+  @each $name, $value in $cols {
+    .col-#{$breakpoint}-#{$name} {
+      @include media-breakpoint-up($breakpoint) {
+        width: $value;
+        flex: 0 0 auto;
+        padding-left: $padding-x;
+        padding-right: $padding-x;
       }
     }
   }
