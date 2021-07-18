@@ -1,0 +1,40 @@
+// Navbar
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 30px 88px;
+  &-dark {
+    color: map-get($theme-colors, "white");
+  }
+  &__list {
+    display: flex;
+    &__item {
+      text-decoration: none;
+      color: lighten($secondary, 50%);
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+// 按鈕
+.btn {
+  border: 1px #000 solid;
+  padding: 1rem;
+  color: white;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+// 按鈕群組
+// .btn-group {
+// }
+
+// 卡片
+// .card {
+// }
+
+// 表單
+// .form {
+// }

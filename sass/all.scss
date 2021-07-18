@@ -1,7 +1,13 @@
-
-
 @import "_variables.scss";
+@import "_mixin.scss";
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-@import "_project.scss"
+@import "_reset.scss";
+@import "_base.scss";
+@import "_grid.scss";
+@import "_components.scss";
+@import "./utilities/utilities";
+@import "_breakpoints.scss";
+
+@import "_project.scss";
