@@ -45,6 +45,12 @@
       height: 705px;
     }
   }
+  &__product {
+    padding: 80px 160px;
+    h2 {
+      margin-bottom: map-get($space, "5");
+    }
+  }
 }
 
 .img {
@@ -121,6 +127,24 @@
     + .checkbox__label::before {
       background-color: #aa0601;
       color: white;
+    }
+  }
+}
+
+.product {
+  &__categoryTab {
+    border-color: #DCDCDC;
+    position: relative;
+    &.active {
+      &::after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 8px;
+        background-color: map-get($theme-colors, 'secondary');
+      }
     }
   }
 }

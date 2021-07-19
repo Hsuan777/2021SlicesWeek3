@@ -1134,6 +1134,10 @@ form input:not([type='checkbox']):focus, form textarea:focus {
   padding-bottom: 4rem;
 }
 
+.w-100 {
+  width: 100%;
+}
+
 @media (min-width: 576px) {
   .ms-sm-0 {
     margin-left: 0;
@@ -6234,6 +6238,14 @@ form input:not([type='checkbox']):focus, form textarea:focus {
   }
 }
 
+.section__product {
+  padding: 80px 160px;
+}
+
+.section__product h2 {
+  margin-bottom: 2.5rem;
+}
+
 .img {
   width: 100%;
   -o-object-fit: cover;
@@ -6322,5 +6334,20 @@ form input:not([type='checkbox']):focus, form textarea:focus {
 .checkbox:checked + .checkbox__label::before {
   background-color: #aa0601;
   color: white;
+}
+
+.product__categoryTab {
+  border-color: #DCDCDC;
+  position: relative;
+}
+
+.product__categoryTab.active::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 8px;
+  background-color: #aa0601;
 }
 /*# sourceMappingURL=all.css.map */
