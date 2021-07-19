@@ -1,9 +1,12 @@
 .banner {
-  height: 840px;
+  height: 394px;
   background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  @include media-breakpoint-up(md) {
+    height: 840px;
+  }
 }
 
 .section {
@@ -72,6 +75,9 @@
       z-index: 1;
     }
     h3 {
+      @include media-breakpoint-up(md) {
+        font-size: 4.5rem;
+      }
       z-index: 9;
     }
   }

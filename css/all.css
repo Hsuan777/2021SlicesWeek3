@@ -394,7 +394,7 @@ img {
 }
 
 .title-fs-1 {
-  font-size: 4.5rem;
+  font-size: 4rem;
 }
 
 .title-fs-2 {
@@ -1596,7 +1596,7 @@ img {
 
 @media (min-width: 576px) {
   .title-fs-sm-1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -2471,7 +2471,7 @@ img {
 
 @media (min-width: 768px) {
   .title-fs-md-1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -3346,7 +3346,7 @@ img {
 
 @media (min-width: 992px) {
   .title-fs-lg-1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -4221,7 +4221,7 @@ img {
 
 @media (min-width: 1200px) {
   .title-fs-xl-1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -5096,7 +5096,7 @@ img {
 
 @media (min-width: 1400px) {
   .title-fs-xxl-1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 }
 
@@ -5306,11 +5306,17 @@ img {
 }
 
 .banner {
-  height: 840px;
+  height: 394px;
   background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .banner {
+    height: 840px;
+  }
 }
 
 .section__index {
@@ -5404,5 +5410,11 @@ img {
 
 .joint--after h3 {
   z-index: 9;
+}
+
+@media (min-width: 768px) {
+  .joint--after h3 {
+    font-size: 4.5rem;
+  }
 }
 /*# sourceMappingURL=all.css.map */
