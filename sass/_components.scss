@@ -11,10 +11,12 @@
   &__list {
     display: flex;
     &__item {
-      text-decoration: none;
-      color: lighten($secondary, 50%);
-      &:hover {
-        color: white;
+      * {
+        text-decoration: none;
+        color: lighten($secondary, 50%);
+        &:hover {
+          color: white;
+        }
       }
     }
   }

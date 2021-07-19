@@ -11,6 +11,9 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  // 去掉 col 多出來的部分
+  margin-left: -$padding-x;
+  margin-right: -$padding-x;
   >* {
     width: 100%;
     max-width: 100%;
