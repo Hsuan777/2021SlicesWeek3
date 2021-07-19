@@ -2,9 +2,11 @@
 .navbar {
   display: flex;
   align-items: center;
-  padding: 30px 88px;
-  &-dark {
-    color: map-get($theme-colors, "white");
+  padding: 10px 0;
+  border-bottom: 1px solid #fff;
+  @include media-breakpoint-up(md) {
+    padding: 30px 88px;
+    border-bottom: 0;
   }
   &__list {
     display: flex;

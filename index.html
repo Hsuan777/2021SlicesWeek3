@@ -12,17 +12,33 @@
 </head>
 <body>
   <nav class="bg-secondary">
-    <div class="navbar navbar-dark">
-      <a href="#">
+    <div class="navbar">
+      <a href="#" class="mx-auto mx-md-0">
         <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true" alt="六角眼鏡行">
       </a>
-      <div class="navbar__list ms-auto text-fs-5">
+      <!-- PC、Table -->
+      <div class="navbar__list ms-auto text-fs-5 d-none d-md-block">
         <a href="" class="navbar__list__item me-6">系列鏡框</a>
         <a href="" class="navbar__list__item me-6">門市據點</a>
         <a href="" class="navbar__list__item me-6">部落格</a>
         <a href="" class="navbar__list__item">常見問題</a>
       </div>
     </div>
+    <!-- Mobile -->
+    <ul class="navbar__list flex-wrap text-fs-5 d-md-none">
+      <li class="col-6 border-bottom border-end border-white">
+        <a href="" class="navbar__list__item text-center d-block py-1">系列鏡框</a>
+      </li>
+      <li class="col-6 border-bottom border-start border-white">
+        <a href="" class="navbar__list__item text-center d-block py-1">門市據點</a>
+      </li>
+      <li class="col-6 border-top border-end border-white">
+        <a href="" class="navbar__list__item text-center d-block py-1">部落格</a>
+      </li>
+      <li class="col-6 border-top border-start border-white">
+        <a href=""class="navbar__list__item text-center d-block py-1">常見問題</a>
+      </li>
+    </ul>
   </nav>
   <main class="main">
     <!-- Banner -->

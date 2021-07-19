@@ -86,7 +86,14 @@
       }
     }
   }
-  @each $name, $value in $flex {
+  @each $name, $value in $flex-wrap {
+    .flex-#{$breakpoint}-#{$name} {
+      @include media-breakpoint-up($breakpoint) {
+        flex-wrap: $value;
+      }
+    }
+  }
+  @each $name, $value in $flex-direction {
     .flex-#{$breakpoint}-#{$name} {
       @include media-breakpoint-up($breakpoint) {
         flex-direction: $value;

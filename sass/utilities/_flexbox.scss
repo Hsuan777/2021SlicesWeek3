@@ -16,8 +16,14 @@
   }
 }
 
-@each $name, $value in $flex {
+@each $name, $value in $flex-direction {
   .flex-#{$name} {
     flex-direction: $value;
+  }
+}
+
+@each $name, $value in $flex-wrap {
+  .flex-#{$name} {
+    flex-wrap: $value;
   }
 }

@@ -87,11 +87,16 @@ $align-items: (
   "evenly": space-evenly
 );
 
-$flex: (
+$flex-direction: (
   "row": row,
   "row-reverse": row-reverse,
   "column": column,
   "column-reverse": column-reverse
+);
+
+$flex-wrap: (
+  "wrap": wrap,
+  "nowrap": nowrap,
 );
 
 $position: (
@@ -126,7 +131,7 @@ $cols: (
 $borders: (
   "border": border,
   "border-start": border-left,
-  "border-end": border-end,
+  "border-end": border-right,
   "border-top": border-top,
   "border-bottom": border-bottom
 );
