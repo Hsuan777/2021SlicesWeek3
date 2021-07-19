@@ -95,3 +95,32 @@
     left: 16px;
   }
 }
+
+.checkbox {
+  display: none;
+  &__label {
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    &::before {
+      position: absolute;
+      content: "\2714";
+      top: 1px;
+      left: 0;
+      width: 18px;
+      height: 18px;
+      padding: 0px 0px 0px 1px;
+      border: 1px solid #000;
+      border-radius: 10%;
+      display: inline-block;
+      margin-right: 10px;
+      color: transparent;
+    }
+  }
+  &:checked {
+    + .checkbox__label::before {
+      background-color: #aa0601;
+      color: white;
+    }
+  }
+}
