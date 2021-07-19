@@ -48,9 +48,9 @@
 }
 
 .img {
+  width: 100%;
+  object-fit: cover;
   &__joint {
-    width: 100%;
-    object-fit: cover;
     height: 291px;
     @include media-breakpoint-up(md) {
       height: 278px;
@@ -58,6 +58,9 @@
     @include media-breakpoint-up(lg) {
       height: 455px;
     }
+  }
+  &__custom {
+    height: 256px;
   }
 }
 
@@ -80,5 +83,15 @@
       }
       z-index: 9;
     }
+  }
+}
+
+.custom {
+  &--height {
+    height: 460px;
+  }
+  &--position {
+    bottom: 16px;
+    left: 16px;
   }
 }

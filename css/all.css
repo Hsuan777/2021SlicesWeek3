@@ -187,6 +187,21 @@ img {
   cursor: pointer;
 }
 
+.card {
+  border: 1px solid #DEE2E6;
+  box-shadow: 0px 2px 6px #00000029;
+  border-radius: 4px;
+}
+
+.card__header img {
+  border-radius: 4px 4px 0 0;
+}
+
+.card__body {
+  padding: 1rem;
+  color: #212529;
+}
+
 .d-none {
   display: none;
 }
@@ -393,6 +408,46 @@ img {
 
 .border-dark {
   border-color: black;
+}
+
+.btn-dark-secondary {
+  background-color: #212529;
+}
+
+.btn-dark-secondary:hover {
+  background-color: #0a0c0d;
+}
+
+.bg-dark-secondary {
+  background-color: #212529;
+}
+
+.text-dark-secondary {
+  color: #212529;
+}
+
+.border-dark-secondary {
+  border-color: #212529;
+}
+
+.btn-grey {
+  background-color: #707070;
+}
+
+.btn-grey:hover {
+  background-color: #575757;
+}
+
+.bg-grey {
+  background-color: #707070;
+}
+
+.text-grey {
+  color: #707070;
+}
+
+.border-grey {
+  border-color: #707070;
 }
 
 .title-fs-1 {
@@ -5381,9 +5436,12 @@ img {
   }
 }
 
-.img__joint {
+.img {
   width: 100%;
   object-fit: cover;
+}
+
+.img__joint {
   height: 291px;
 }
 
@@ -5397,6 +5455,10 @@ img {
   .img__joint {
     height: 455px;
   }
+}
+
+.img__custom {
+  height: 256px;
 }
 
 .joint--after {
@@ -5422,5 +5484,14 @@ img {
   .joint--after h3 {
     font-size: 4.5rem;
   }
+}
+
+.custom--height {
+  height: 460px;
+}
+
+.custom--position {
+  bottom: 16px;
+  left: 16px;
 }
 /*# sourceMappingURL=all.css.map */

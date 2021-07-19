@@ -1,13 +1,17 @@
 $primary: #650300;
 $secondary: #aa0601;
 $third: #faf2f2;
+$dark-secondary: #212529;
+$grey: #707070;
 $padding-x: 15px;
 $theme-colors: (
   "primary": $primary,
   "secondary": $secondary,
   "third": $third,
   "white": white,
-  "dark": black
+  "dark": black,
+  "dark-secondary": $dark-secondary,
+  "grey": $grey,
 );
 
 $space: (
