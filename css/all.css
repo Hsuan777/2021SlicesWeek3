@@ -5975,6 +5975,41 @@ form input:not([type='checkbox']):focus, form textarea:focus {
   }
 }
 
+.section__other {
+  padding: 28px 0 56px 0;
+}
+
+@media (min-width: 768px) {
+  .section__other {
+    padding: 60px 0 96px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .section__other {
+    padding: 96px 0 160px 0;
+  }
+}
+
+.section__other h2 {
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px #aa0601 solid;
+}
+
+@media (min-width: 768px) {
+  .section__other h2 {
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .section__other h2 {
+    border-left: 8px #aa0601 solid;
+    margin-bottom: 4rem;
+  }
+}
+
 .img {
   width: 100%;
   object-fit: cover;
