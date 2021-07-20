@@ -6058,6 +6058,10 @@ img {
   height: 164px;
 }
 
+.img__location__inside {
+  height: 251px;
+}
+
 .joint--after {
   position: relative;
 }
