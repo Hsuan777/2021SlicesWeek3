@@ -199,7 +199,15 @@ img {
 
 .card__body {
   padding: 1rem;
-  color: #212529;
+}
+
+form .input__group label, form .input__group textarea, form .input__group input:not([type='checkbox']) {
+  display: block;
+}
+
+form .input__group input, form .input__group textarea {
+  width: 100%;
+  padding: 0.5rem;
 }
 
 .d-none {
@@ -5493,5 +5501,17 @@ img {
 .custom--position {
   bottom: 16px;
   left: 16px;
+}
+
+input:not([type='checkbox']) {
+  background-color: transparent;
+}
+
+input:not([type='checkbox']):focus {
+  outline: 1px #650300 solid;
+}
+
+textarea {
+  background-color: transparent;
 }
 /*# sourceMappingURL=all.css.map */

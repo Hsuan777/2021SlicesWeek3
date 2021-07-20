@@ -95,3 +95,14 @@
     left: 16px;
   }
 }
+
+input:not([type='checkbox']) {
+  background-color: transparent;
+  &:focus {
+    outline: 1px map-get($theme-colors, 'primary') solid;
+  }
+}
+
+textarea {
+  background-color: transparent;
+}

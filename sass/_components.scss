@@ -47,10 +47,20 @@
   }
   &__body {
     padding: map-get($space, "2");
-    color: map-get($theme-colors, "dark-secondary" );
   }
 }
 
 // 表單
-// .form {
-// }
+form {
+  .input {
+    &__group {
+      label, textarea, input:not([type='checkbox']) {
+        display: block;
+      }
+      input, textarea {
+        width: 100%;
+        padding: map-get($space, '1');
+      }
+    }
+  }
+}
