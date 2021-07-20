@@ -6658,6 +6658,22 @@ img {
   }
 }
 
+.img__blog__inside {
+  height: 225px;
+}
+
+@media (min-width: 768px) {
+  .img__blog__inside {
+    height: 333px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img__blog__inside {
+    height: 539px;
+  }
+}
+
 .joint--after {
   position: relative;
 }

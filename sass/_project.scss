@@ -132,6 +132,15 @@
     @include media-breakpoint-up(lg) {
       height: 400px;
     }
+    &__inside {
+      height: 225px;
+      @include media-breakpoint-up(md) {
+        height: 333px;
+      }
+      @include media-breakpoint-up(lg) {
+        height: 539px;
+      }
+    }
   }
 }
 
