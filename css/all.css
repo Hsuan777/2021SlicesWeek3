@@ -5996,6 +5996,22 @@ img {
   }
 }
 
+.section__other__blog {
+  padding: 28px 0 56px 0;
+}
+
+@media (min-width: 768px) {
+  .section__other__blog {
+    padding: 32px 0 96px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .section__other__blog {
+    padding: 40px 0 160px 0;
+  }
+}
+
 .section__other h2 {
   padding-left: 1rem;
   margin-bottom: 1.5rem;
@@ -6060,6 +6076,22 @@ img {
 
 .img__location__inside {
   height: 251px;
+}
+
+.img__blog {
+  height: 217px;
+}
+
+@media (min-width: 768px) {
+  .img__blog {
+    height: 208px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img__blog {
+    height: 400px;
+  }
 }
 
 .joint--after {
