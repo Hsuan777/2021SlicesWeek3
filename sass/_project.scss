@@ -1,11 +1,23 @@
 .banner {
-  height: 394px;
-  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  @include media-breakpoint-up(md) {
-    height: 840px;
+  &__index {
+    height: 394px;
+    background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/banner.png?raw=true');
+    @include media-breakpoint-up(md) {
+      height: 840px;
+    }
+  }
+  &__joint {
+    height: 719px;
+    background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true');
+    @include media-breakpoint-up(md) {
+      height: 452px;
+    }
+    @include media-breakpoint-up(lg) {
+      height: 705px;
+    }
   }
 }
 
@@ -32,23 +44,22 @@
       }
     }
   }
-  &__joint {
-    height: 719px;
-    background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/bg.png?raw=true');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  &__product {
+    padding: 32px 0 56px 0;
     @include media-breakpoint-up(md) {
-      height: 452px;
+      padding: 56px 0 96px 0;
     }
     @include media-breakpoint-up(lg) {
-      height: 705px;
+      padding: 80px 0 160px 0;
     }
-  }
-  &__product {
-    padding: 80px 160px;
     h2 {
-      margin-bottom: map-get($space, "5");
+      margin-bottom: 20px;
+      @include media-breakpoint-up(md) {
+        margin-bottom: map-get($space, "4");
+      }
+      @include media-breakpoint-up(lg) {
+        margin-bottom: map-get($space, "5");
+      }
     }
   }
 }
@@ -67,6 +78,15 @@
   }
   &__custom {
     height: 256px;
+  }
+  &__productTab {
+    height: 148px;
+    @include media-breakpoint-up(md) {
+      height: 304px;
+    }
+  }
+  &__product {
+    height: 164px;
   }
 }
 
@@ -135,6 +155,17 @@
   &__categoryTab {
     border-color: #DCDCDC;
     position: relative;
+    &:hover {
+      &::after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 8px;
+        background-color: map-get($theme-colors, 'secondary');
+      }
+    }
     &.active {
       &::after {
         position: absolute;
@@ -145,6 +176,21 @@
         height: 8px;
         background-color: map-get($theme-colors, 'secondary');
       }
+    }
+  }
+  &__colorSelect {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 0;
+    &:focus {
+      border: 3px #fff solid;
+    }
+    &--type1 {
+      background-color: #5F3E2D;
+    }
+    &--type2 {
+      background-color: #B75929;
     }
   }
 }
