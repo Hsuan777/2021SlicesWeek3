@@ -6089,8 +6089,14 @@ form input:not([type='checkbox']):focus, form textarea:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 8px;
+  height: 4px;
   background-color: #aa0601;
+}
+
+@media (min-width: 768px) {
+  .product__categoryTab:hover::after {
+    height: 8px;
+  }
 }
 
 .product__categoryTab.active::after {
@@ -6099,8 +6105,14 @@ form input:not([type='checkbox']):focus, form textarea:focus {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 8px;
+  height: 4px;
   background-color: #aa0601;
+}
+
+@media (min-width: 768px) {
+  .product__categoryTab.active::after {
+    height: 8px;
+  }
 }
 
 .product__colorSelect {
