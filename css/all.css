@@ -94,6 +94,20 @@ img {
   padding-right: 15px;
 }
 
+.col-1 {
+  width: 8.33%;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.col-2 {
+  width: 16.66%;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
 .col-3 {
   width: 25%;
   padding-left: 15px;
@@ -131,6 +145,13 @@ img {
 
 .col-8 {
   width: 66%;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.col-9 {
+  width: 75%;
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
@@ -1995,6 +2016,26 @@ img {
 }
 
 @media (min-width: 576px) {
+  .col-sm-1 {
+    width: 8.33%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-2 {
+    width: 16.66%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 576px) {
   .col-sm-3 {
     width: 25%;
     flex: 0 0 auto;
@@ -2047,6 +2088,16 @@ img {
 @media (min-width: 576px) {
   .col-sm-8 {
     width: 66%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-9 {
+    width: 75%;
     flex: 0 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -2946,6 +2997,26 @@ img {
 }
 
 @media (min-width: 768px) {
+  .col-md-1 {
+    width: 8.33%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-2 {
+    width: 16.66%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
   .col-md-3 {
     width: 25%;
     flex: 0 0 auto;
@@ -2998,6 +3069,16 @@ img {
 @media (min-width: 768px) {
   .col-md-8 {
     width: 66%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-9 {
+    width: 75%;
     flex: 0 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -3897,6 +3978,26 @@ img {
 }
 
 @media (min-width: 992px) {
+  .col-lg-1 {
+    width: 8.33%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-2 {
+    width: 16.66%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
   .col-lg-3 {
     width: 25%;
     flex: 0 0 auto;
@@ -3949,6 +4050,16 @@ img {
 @media (min-width: 992px) {
   .col-lg-8 {
     width: 66%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-9 {
+    width: 75%;
     flex: 0 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -4848,6 +4959,26 @@ img {
 }
 
 @media (min-width: 1200px) {
+  .col-xl-1 {
+    width: 8.33%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-2 {
+    width: 16.66%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1200px) {
   .col-xl-3 {
     width: 25%;
     flex: 0 0 auto;
@@ -4900,6 +5031,16 @@ img {
 @media (min-width: 1200px) {
   .col-xl-8 {
     width: 66%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-9 {
+    width: 75%;
     flex: 0 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -5799,6 +5940,26 @@ img {
 }
 
 @media (min-width: 1400px) {
+  .col-xxl-1 {
+    width: 8.33%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1400px) {
+  .col-xxl-2 {
+    width: 16.66%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1400px) {
   .col-xxl-3 {
     width: 25%;
     flex: 0 0 auto;
@@ -5851,6 +6012,16 @@ img {
 @media (min-width: 1400px) {
   .col-xxl-8 {
     width: 66%;
+    flex: 0 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1400px) {
+  .col-xxl-9 {
+    width: 75%;
     flex: 0 0 auto;
     padding-left: 15px;
     padding-right: 15px;
