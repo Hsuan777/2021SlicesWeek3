@@ -221,6 +221,10 @@ img {
   border-radius: 4px;
 }
 
+.card__header {
+  border-bottom: 1px #00000021 solid;
+}
+
 .card__header img {
   border-radius: 4px 4px 0 0;
 }
@@ -229,23 +233,24 @@ img {
   padding: 1rem;
 }
 
-.input__group label, .input__group input:not([type='checkbox']), .input__group textarea {
-  width: 100%;
+.input__group label, .input__group input:not([type='checkbox']), .input__group textarea, .input__group select {
   display: block;
   font-size: 0.875rem;
 }
 
 @media (min-width: 768px) {
-  .input__group label, .input__group input:not([type='checkbox']), .input__group textarea {
+  .input__group label, .input__group input:not([type='checkbox']), .input__group textarea, .input__group select {
     font-size: 1rem;
   }
 }
 
-.input__group input:not([type='checkbox']), .input__group textarea {
+.input__group input:not([type='checkbox']), .input__group textarea, .input__group select {
+  width: 100%;
   padding: .5rem 12px;
+  border: 1px #CED4DA solid;
 }
 
-.input__group input:not([type='checkbox']):focus, .input__group textarea:focus {
+.input__group input:not([type='checkbox']):focus, .input__group textarea:focus, .input__group select:focus {
   outline: 1px #000 solid;
 }
 
@@ -6046,6 +6051,10 @@ img {
 }
 
 .img__product {
+  height: 164px;
+}
+
+.img__location {
   height: 164px;
 }
 

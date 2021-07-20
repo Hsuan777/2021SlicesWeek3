@@ -61,6 +61,7 @@
   box-shadow: 0px 2px 6px #00000029;
   border-radius: 4px;
   &__header {
+    border-bottom: 1px #00000021 solid;
     img {
       border-radius: 4px 4px 0 0;
     }
@@ -73,16 +74,17 @@
 // 表單
 .input {
   &__group {
-    label, input:not([type='checkbox']), textarea {
-      width: 100%;
+    label, input:not([type='checkbox']), textarea, select {
       display: block;
       font-size: map-get($text-font-sizes, '7');
       @include media-breakpoint-up(md) {
         font-size: map-get($text-font-sizes, '6');
       }
     }
-    input:not([type='checkbox']), textarea {
+    input:not([type='checkbox']), textarea, select {
+      width: 100%;
       padding: .5rem 12px;
+      border: 1px#CED4DA solid;
       &:focus {
         outline: 1px #000 solid;
       }
