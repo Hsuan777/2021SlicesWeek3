@@ -6,6 +6,10 @@
   padding-left: $padding-x;
   padding-right: $padding-x;
   margin: 0 auto;
+  @include media-breakpoint-up(md) {
+    padding-left: $padding-x*2;
+    padding-right: $padding-x*2;
+  }
 }
 
 .row {
@@ -14,6 +18,10 @@
   // 去掉 col 多出來的部分
   margin-left: -$padding-x;
   margin-right: -$padding-x;
+  @include media-breakpoint-up(md) {
+    padding-left: -$padding-x*2;
+    padding-right: -$padding-x*2;
+  }
   >* {
     width: 100%;
     max-width: 100%;

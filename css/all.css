@@ -80,11 +80,25 @@ img {
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
+}
+
+@media (min-width: 768px) {
+  .row {
+    padding-left: -30px;
+    padding-right: -30px;
+  }
 }
 
 .row > * {
@@ -225,12 +239,19 @@ img {
   align-items: center;
   padding: 10px 0;
   border-bottom: 1px solid #fff;
+  padding: 30px 15px;
 }
 
 @media (min-width: 768px) {
   .navbar {
-    padding: 30px 88px;
+    padding: 30px 30px;
     border-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    padding: 30px 88px;
   }
 }
 
