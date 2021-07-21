@@ -78,6 +78,7 @@
       @include media-breakpoint-up(lg) {
         padding: 40px 0 160px 0;
       }
+      
     }
     h2 {
       padding-left: map-get($space, "2" );
@@ -90,6 +91,15 @@
         border-left: 8px map-get($theme-colors, 'secondary') solid;
         margin-bottom: map-get($space, "7");
       }
+    }
+  }
+  &__blogInside {
+    padding-bottom: 56px;
+    @include media-breakpoint-up(md) {
+      padding-bottom: 160px;
+    }
+    @include media-breakpoint-up(lg) {
+      padding-bottom: 96px;
     }
   }
 }
