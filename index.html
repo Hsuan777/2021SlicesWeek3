@@ -5,31 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/all.css">
   <title>Document</title>
 </head>
 <body>
   <nav class="bg-secondary">
     <div class="navbar">
-      <a href="#" class="mx-auto mx-md-0">
+      <a href="index.html" class="mx-auto mx-md-0">
         <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true" alt="六角眼鏡行">
       </a>
       <!-- PC、Table -->
       <div class="ms-auto d-none d-md-block">
         <ul class="navbar__list text-fs-5">
           <li class="navbar__list__item me-6">
-            <a href="">系列鏡框</a>
+            <a href="product-optical.html">系列鏡框</a>
           </li>
           <li class="navbar__list__item me-6">
-            <a href="">門市據點</a>
+            <a href="location.html">門市據點</a>
           </li>
           <li class="navbar__list__item me-6">
-            <a href="">部落格</a>
+            <a href="blog.html">部落格</a>
           </li>
           <li class="navbar__list__item">
-            <a href="">常見問題</a>
+            <a href="questions.html">常見問題</a>
           </li>
         </ul>
       </div>
@@ -55,7 +55,7 @@
     <figure class="banner banner__index d-flex align-items-center">
       <div class="container text-primary text-end">
         <h1 class="title-fs-4 title-fs-md-2 title-fs-lg-1">
-          <span class="text-fs-6 text-fs-md-5 text-fs-1">Promise-Desert 2020 早春系列</span><br>
+          <span class="text-fs-6 text-fs-md-5 text-fs-lg-1 fw-medium">Promise-Desert 2020 早春系列</span><br>
           <span class="fw-bold">看得清，才能看得遠</span>
         </h1>
       </div>
@@ -104,36 +104,38 @@
     <section class="section__index">
       <div class="container">
         <h2 class="text-center text-primary">經典系列鏡框</h2>
-        <ul class="row d-md-none fw-bold">
+        <!-- Mobile -->
+        <ul class="row d-md-none fw-bolder">
           <li class="col-12">
             <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-1.png?raw=true" alt="OPTICAL">
-            <h3 class="title-fs-5 text-secondary position-absolute top-50 start-50 translate-middle">
+            <h3 class="title-fs-4 text-secondary position-absolute top-50 start-50 translate-middle">
               <!-- <span class="material-icons"></span>auto_awesome</span>  -->
               OPTICAL
             </h3>
           </li>
           <li class="col-12 d-flex justify-content-center align-items-center my-1">
             <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-2.png?raw=true" alt="SUNGLASSES">
-            <h3 class="d-flex align-items-center title-fs-5 text-secondary position-absolute top-50 start-50 translate-middle">
+            <h3 class="d-flex align-items-center title-fs-4 text-secondary position-absolute top-50 start-50 translate-middle">
               <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-sun.svg" alt="sun" class="icon-xl me-1">
               SUNGLASSES
             </h3>
           </li>
           <li class="col-12 d-flex justify-content-center align-items-center">
             <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-3.png?raw=true" alt="FUNCTIONAL">
-            <h3 class="d-flex align-items-center title-fs-5 text-secondary position-absolute top-50 start-50 translate-middle">
+            <h3 class="d-flex align-items-center title-fs-4 text-secondary position-absolute top-50 start-50 translate-middle">
               <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-thunder.svg" alt="FUNCTIONAL" class="icon-xl me-1">
               FUNCTIONAL
             </h3>
           </li>
         </ul>
-        <ul class="row d-none d-md-block fw-bold fst-italic">
+        <!-- PC、Table -->
+        <ul class="row d-none d-md-block fw-bolder fst-italic">
           <li class="d-flex align-items-center">
             <div class="col-7">
               <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-1.png?raw=true" alt="OPTICAL">
             </div>
             <div class="col-5">
-              <h3 class="title-fs-5 title-fs-lg-2 text-secondary">
+              <h3 class="title-fs-4 title-fs-lg-2 text-secondary">
                 <!-- <span class="material-icons"></span>auto_awesome</span>  -->
                 OPTICAL
               </h3>
@@ -144,7 +146,7 @@
               <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-2.png?raw=true" alt="SUNGLASSES">
             </div>
             <div class="col-5">
-              <h3 class="d-flex justify-content-lg-end align-items-center title-fs-5 title-fs-lg-2 text-secondary">
+              <h3 class="d-flex justify-content-lg-end align-items-center title-fs-4 title-fs-lg-2 text-secondary">
                 <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-sun.svg" alt="sun" class="icon-xl me-1">
                 SUNGLASSES
               </h3>
@@ -155,7 +157,7 @@
               <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/product-3.png?raw=true" alt="FUNCTIONAL">
             </div>
             <div class="col-5">
-              <h3 class="d-flex align-items-center title-fs-5 title-fs-lg-2 text-secondary">
+              <h3 class="d-flex align-items-center title-fs-4 title-fs-lg-2 text-secondary">
                 <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/102c91f7b3d8e08005073f54b3283b09a18dc427/week3/icon-thunder.svg" alt="FUNCTIONAL" class="icon-xl me-1">
                 FUNCTIONAL
               </h3>

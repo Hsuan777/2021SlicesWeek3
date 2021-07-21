@@ -103,14 +103,14 @@
   @each $name, $value in $title-font-sizes {
     .title-fs-#{$breakpoint}-#{$name} {
       @include media-breakpoint-up($breakpoint) {
-        font-size: $value;
+        font-size: $value !important;
       }
     }
   }
   @each $name, $value in $text-font-sizes {
     .text-fs-#{$breakpoint}-#{$name} {
       @include media-breakpoint-up($breakpoint) {
-        font-size: $value;
+        font-size: $value !important
       }
     }
   }

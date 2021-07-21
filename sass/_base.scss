@@ -16,6 +16,10 @@ img {
   display: block;
 }
 
+input[type='button'] {
+  font-size: 1rem;
+}
+
 .main {
   min-height: calc(100vh - 333px);
 }

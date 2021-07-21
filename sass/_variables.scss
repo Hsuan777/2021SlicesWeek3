@@ -55,9 +55,10 @@ $text-font-sizes: (
 
 
 $font-weights: (
-  "regular": 400,
+  // 預設 400
   "medium": 500,
-  "bold": 600,
+  "bold": 700,
+  "bolder": 900,
 );
 
 $icon-sizes: (

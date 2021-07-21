@@ -4,8 +4,10 @@
   }
 }
 
-.fw-bold {
-  font-weight: 700;
+@each $name, $value in $font-weights {
+  .fw-#{$name} {
+    font-weight: $value;
+  }
 }
 
 .fst-italic {
