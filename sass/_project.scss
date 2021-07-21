@@ -191,12 +191,11 @@
   &__label {
     cursor: pointer;
     position: relative;
-    padding-left: 25px;
     &::before {
       position: absolute;
       content: "\2714";
       top: 1px;
-      left: 0;
+      left: -24px;
       width: 18px;
       height: 18px;
       padding: 0px 0px 0px 1px;
